@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "api-insta"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "api_insta"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "3.0.7"
+djangorestframework = "3.10"
+djangorestframework-simplejwt = "4.6.0"
+pyjwt = "2.0.0"
+djoser = "2.0.3"
+django-cors-headers = "3.4.0"
+pillow = "^10.0.0"
+argon2-cffi = "^21.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
